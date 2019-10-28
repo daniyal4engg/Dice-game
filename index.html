@@ -4,13 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <!-- Ionicons -->
+    <link
+      href="//code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+
     <title>Dice game</title>
   </head>
   <body>
     <div class="wrapper clearfix">
       <div class="player-0-panel active">
         <div class="player-name" id="name-0">player 1</div>
-        <div class="player-score" id="score-0">43</div>
+        <div class="player-score" id="score-0">15</div>
         <div class="player-current-box">
           <div class="player-current-label">current</div>
           <div class="player-current-score" id="current-0">11</div>
@@ -19,18 +31,27 @@
 
       <div class="player-1-panel ">
         <div class="player-name" id="name-1">player 2</div>
-        <div class="player-score" id="score-1">70</div>
+        <div class="player-score" id="score-1">50</div>
         <div class="player-current-box">
           <div class="player-current-label">current</div>
           <div class="player-current-score" id="current-1">0</div>
         </div>
       </div>
 
-      <button class="btn-new">NEW GAME</button>
-      <button class="btn-roll">ROLL DICE</button>
-      <button class="hold">HOLD</button>
-      <img src="    " alt="" class="dice" />
+      <button class="btn-new">
+        <i class="material-icons"> add_circle_outline </i>NEW GAME
+      </button>
+      <button class="btn-roll">
+        <i class="material-icons"> refresh </i>ROLL DICE
+      </button>
+      <button class="btn-hold">
+        <i class="material-icons"> arrow_downward </i>HOLD
+      </button>
+
+      <input type="text" placeholder="Final score" class="final-score" />
+      <img src="/dice-3.png    " alt="Dice" class="dice" id="dice-1" />
     </div>
+    <div></div>
 
     <script src="dice.js"></script>
   </body>
