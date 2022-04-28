@@ -1,3 +1,7 @@
+body{
+  background: rgb(11,6,6);
+  background: radial-gradient(circle, rgba(11,6,6,1) 0%, rgba(37,37,116,0.6057773451177346) 100%);
+}
 .final-score {
   position: absolute;
   left: 50%;
@@ -84,12 +88,14 @@ body {
   text-align: center;
   font-size: 80px;
   font-weight: 100;
-  color: orangered;
+  color: rgb(105, 114, 152);
   margin-bottom: 130px;
+  
 }
 
 .active {
   background-color: lightgray;
+  
 }
 
 .active .player-name {
@@ -100,25 +106,28 @@ body {
   content: "\2022";
   font-size: 47px;
   position: absolute;
-  color: orangered;
+  color: rgb(105, 114, 152);
   top: -7px;
   right: 10px;
 }
 
 .player-current-box {
-  background-color: orangered;
+  background-color: rgb(105, 114, 152);
   color: white;
   width: 80px;
   margin: 0px auto;
   padding: 12px;
   text-align: center;
+border-radius: 5px;
+  
+
 }
 
 .player-current-label {
   text-transform: uppercase;
   margin-bottom: 10px;
   font-size: 12px;
-  color: grey;
+  color: rgb(255, 255, 255);
 }
 .player-current-score {
   font-size: 30px;
@@ -138,6 +147,7 @@ button {
   cursor: pointer;
   font-weight: 300;
   transition: background-color 0.3s, color 0.3s;
+
 }
 button:hover {
   font-weight: 600;
@@ -188,3 +198,9 @@ i {
   font-weight: 300;
   color: #eb4d4d;
 }
+
+
+
+
+
+
