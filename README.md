@@ -38,3 +38,8 @@
 3. page showing player_1 turn
 
 ![image](./screenshots/player2.png)
+
+
+
+![video2086963664](https://user-images.githubusercontent.com/56603609/165794196-688a5574-e9be-4f68-96ba-b5e210aac517.gif)
+
