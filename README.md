@@ -1,8 +1,11 @@
 # Dice Game
 
-Dice Game (Reach to 100 points & Win)- Rules for duo player game,
-Create new game by + Icon,
-Player_1 keep rolling dice and adding each dice value to total count of player_1, once dice show 1 previous Total get vanish and roller switch to Player_2, dice will roll untill any Player reaches to 100 point (WIN).
+- **Dice It** is a 2 player game with following rules:
+  - A player continues to roll the dice until he decides to hold or he scores **1**.
+  - While the player rolls dice everytime, the total score for current round increments with dice value.
+  - If scored 1 , the player not only get switched. But the round score for the 1 scoring player is considered 0. To avoid such scenario, a player can hold to save the current round score.
+  - The first player to reach a score of 100 wins the match
+- The app is developed in HTML, CSS & Javascript. Bootstrap is used as a framework for CSS.
 
 [Deploy link](dicegameswitch.netlify.app/)
 
